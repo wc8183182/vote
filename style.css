@@ -1,3 +1,4 @@
+/* rwd */
 * {
   box-sizing: border-box;
 }
@@ -19,7 +20,7 @@ header {
   justify-content: center; /* 讓內容水平置中 */
 }
 
-header2 {
+.header2 {
   height: 76px;
   background: rgb(229, 177, 199);
   width: 50%;
@@ -34,7 +35,7 @@ header ul {
   list-style: none;
 }
 
-header2 ul {
+.header2 ul {
   padding: auto;
   margin: auto;
   list-style: none;
@@ -47,7 +48,7 @@ header ul li {
   font-weight: bold;
 }
 
-header2 ul li {
+.header2 ul li {
   color: #131412;
   font-weight: bold;
   font-size: 24px;
