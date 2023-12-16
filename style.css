@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #f3efef;
+}
+
+question {
+  display: flex;
+}
+
+header {
+  height: 76px;
+  background: rgb(144, 157, 214);
+  width: 50%;
+  display: flex;
+  justify-content: center; /* 讓內容水平置中 */
+}
+
+header2 {
+  height: 76px;
+  background: rgb(229, 177, 199);
+  width: 50%;
+  display: flex;
+  justify-content: center; /* 讓內容水平置中 */
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  list-style: none;
+}
+
+header2 ul {
+  padding: auto;
+  margin: auto;
+  list-style: none;
+}
+
+header ul li {
+  color: #131412;
+  font-size: 24px;
+  line-height: 76px;
+  font-weight: bold;
+}
+
+header2 ul li {
+  color: #131412;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 76px;
+}
+
+.here {
+  width: 620px;
+  margin-top: 20px;
+  text-align: left;
+  background: #e6dfdf;
+  margin-left: 170px;
+  padding: 20px 30px;
+  font-size: 16px;
+}
+
+.here2 {
+  width: 620px;
+  background: #e6dfdf;
+  padding: 20px 30px;
+  font-size: 16px;
+  margin-left: 50%;
+  margin-top: 20px;
+  /*flex:1*/
+}
+
+.container {
+  display: flex;
+}
+
+.here,
+.here2 {
+  width: 620px;
+  background: #e6dfdf;
+  padding: 20px 30px;
+  font-size: 16px;
+}
+
+.herecheck {
+  width: 24px;
+  height: 24px;
+}
+
+.one {
+  width: 620px;
+  background: #dedef0;
+  margin-top: 3px;
+  margin-left: 170px;
+  margin-right: auto;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin-bottom: 0;
+}
+
+textarea {
+  width: 500px;
+  height: 60px;
+}
+
+.two {
+  width: 620px;
+  background: #d1d1ee;
+  margin-top: 3px;
+  margin-left: 170px;
+  margin-right: auto;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin-bottom: 0;
+}
+
+.three {
+  width: 620px;
+  background: #c2c2e9;
+  margin-top: 3px;
+  margin-left: 170px;
+  margin-right: auto;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin-bottom: 0;
+}
