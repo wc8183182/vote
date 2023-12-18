@@ -56,7 +56,7 @@
 
   <body>
     <div id="firebaseui-auth-container"></div>
-    <question>
+    <div class="question">
       <header>
         <ul>
           <li>問題一</li>
@@ -68,7 +68,7 @@
           <li>問題二</li>
         </ul>
       </div>
-    </question>
+    </div>
 
     <div class="container">
       <form>
@@ -85,152 +85,285 @@
 
       <from>
         <div class="here2">
-          在團隊中 還有讓你想<br />
-          他或許不是團隊中
+          想不到文案
+          <br />
+
           <p></p>
-          請選出兩位後，並寫下選擇的原因
+          請選出兩位，並寫下選擇的原因
           <br />
         </div>
       </from>
     </div>
 
-    <div class="one">
-      <form>
-        <label for="selection1">第一位</label>
-        <select name="selection1" id="selection1" required>
-          <option></option>
-          <option value="Han">Han</option>
-          <option value="二哥">二哥</option>
-          <option value="阿瑞">阿瑞</option>
-          <option value="阿杰">阿杰</option>
-          <option value="湯包">湯包</option>
-          <option value="阿月">阿月</option>
-          <option value="Jiji">Jiji</option>
-          <option value="Jackson">Jackson</option>
-          <option value="Ian">Ian</option>
-          <option value="Lulu">Lulu</option>
-          <option value="Sin">Sin</option>
-          <option value="瑪姬">瑪姬</option>
-          <option value="阿信">阿信</option>
-          <option value="Yee">Yee</option>
-          <option value="叻叻">叻叻</option>
-          <option value="Rainy">Rainy</option>
-          <option value="Olly">Olly</option>
-          <option value="阿昇">阿昇</option>
-          <option value="Andy">Andy</option>
-          <option value="Abby">Abby</option>
-          <option value="Ken">Ken</option>
-          <option value="Sean">Sean</option>
-          <option value="珊珊">珊珊</option>
-          <option value="巧儒">巧儒</option>
-          <option value="周棋">周棋</option>
-          <option value="Josh">Josh</option>
-          <option value="淯心">淯心</option>
-        </select>
-      </form>
+    <div class="container">
+      <div class="one">
+        <form>
+          <label for="selection1">第一位</label>
+          <select name="selection1" id="selection1" required>
+            <option></option>
+            <option value="Han">Han</option>
+            <option value="二哥">二哥</option>
+            <option value="阿瑞">阿瑞</option>
+            <option value="阿杰">阿杰</option>
+            <option value="湯包">湯包</option>
+            <option value="阿月">阿月</option>
+            <option value="Jiji">Jiji</option>
+            <option value="Jackson">Jackson</option>
+            <option value="Ian">Ian</option>
+            <option value="Lulu">Lulu</option>
+            <option value="Sin">Sin</option>
+            <option value="瑪姬">瑪姬</option>
+            <option value="阿信">阿信</option>
+            <option value="Yee">Yee</option>
+            <option value="叻叻">叻叻</option>
+            <option value="Rainy">Rainy</option>
+            <option value="Olly">Olly</option>
+            <option value="阿昇">阿昇</option>
+            <option value="Andy">Andy</option>
+            <option value="Abby">Abby</option>
+            <option value="Ken">Ken</option>
+            <option value="Sean">Sean</option>
+            <option value="珊珊">珊珊</option>
+            <option value="巧儒">巧儒</option>
+            <option value="周棋">周棋</option>
+            <option value="Josh">Josh</option>
+            <option value="淯心">淯心</option>
+          </select>
+        </form>
 
-      <p></p>
+        <p></p>
 
-      <fieldset>
-        <legend>請填寫選***的原因:</legend>
+        <fieldset>
+          <legend>請填寫選***的原因:</legend>
 
-        <div>
-          <input type="checkbox" id="scales" name="scales" />
-          <label for="scales">積極主動</label>
-        </div>
+          <div>
+            <input type="checkbox" id="scales" name="scales" />
+            <label for="scales">能夠帶領同事成長</label>
+          </div>
 
-        <div>
-          <input type="checkbox" id="horns" name="horns" />
-          <label for="horns">自律並有責任心</label>
-        </div>
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">有效並迅速地處理危機</label>
+          </div>
 
-        <div>
-          <input type="checkbox" id="horns" name="horns" />
-          <label for="horns">團隊合作意識高，溝通時情緒穩定</label>
-        </div>
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">良好溝通能力，團隊合作意識高</label>
+          </div>
 
-        <div>
-          <input type="checkbox" id="horns" name="horns" />
-          <label for="horns">言而有信，值得託付</label>
-        </div>
-      </fieldset>
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">自我管理能能力強，並持續學習</label>
+          </div>
+        </fieldset>
+        <p></p>
+        <from>
+          其他想說的話 :<br />
+          <textarea name="Comment" cols="1" rows="1"> </textarea>
+        </from>
+      </div>
 
-      <p></p>
+      <div class="four">
+        <form>
+          <label for="selection2">第一位</label>
+          <select name="selection2" id="selection2" required>
+            <option></option>
+            <option value="Han">Han</option>
+            <option value="二哥">二哥</option>
+            <option value="阿瑞">阿瑞</option>
+            <option value="阿杰">阿杰</option>
+            <option value="湯包">湯包</option>
+            <option value="阿月">阿月</option>
+            <option value="Jiji">Jiji</option>
+            <option value="Jackson">Jackson</option>
+            <option value="Ian">Ian</option>
+            <option value="Lulu">Lulu</option>
+            <option value="Sin">Sin</option>
+            <option value="瑪姬">瑪姬</option>
+            <option value="阿信">阿信</option>
+            <option value="Yee">Yee</option>
+            <option value="叻叻">叻叻</option>
+            <option value="Rainy">Rainy</option>
+            <option value="Olly">Olly</option>
+            <option value="阿昇">阿昇</option>
+            <option value="Andy">Andy</option>
+            <option value="Abby">Abby</option>
+            <option value="Ken">Ken</option>
+            <option value="Sean">Sean</option>
+            <option value="珊珊">珊珊</option>
+            <option value="巧儒">巧儒</option>
+            <option value="周棋">周棋</option>
+            <option value="Josh">Josh</option>
+            <option value="淯心">淯心</option>
+          </select>
+        </form>
+        <p></p>
+        <fieldset>
+          <legend>請填寫選***的原因:</legend>
 
-      <from>
-        其他想說的話 :<br />
-        <textarea name="Comment" cols="1" rows="1"> </textarea>
-      </from>
+          <div>
+            <input type="checkbox" id="scales" name="scales" />
+            <label for="scales"></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">學習不足地方，不怕遇到困難</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns"></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns"></label>
+          </div>
+        </fieldset>
+        <p></p>
+        <from>
+          其他想說的話:<br />
+          <textarea name="Comment" cols="1" rows="1"> </textarea>
+        </from>
+      </div>
+    </div>
+    <div class="container">
+      <div class="two">
+        <form>
+          <label for="selection1">第二位</label>
+          <select name="selection1" id="selection1" required>
+            <option></option>
+            <option value="Han">Han</option>
+            <option value="二哥">二哥</option>
+            <option value="阿瑞">阿瑞</option>
+            <option value="阿杰">阿杰</option>
+            <option value="湯包">湯包</option>
+            <option value="阿月">阿月</option>
+            <option value="Jiji">Jiji</option>
+            <option value="Jackson">Jackson</option>
+            <option value="Ian">Ian</option>
+            <option value="Lulu">Lulu</option>
+            <option value="Sin">Sin</option>
+            <option value="瑪姬">瑪姬</option>
+            <option value="阿信">阿信</option>
+            <option value="Yee">Yee</option>
+            <option value="叻叻">叻叻</option>
+            <option value="Rainy">Rainy</option>
+            <option value="Olly">Olly</option>
+            <option value="阿昇">阿昇</option>
+            <option value="Andy">Andy</option>
+            <option value="Abby">Abby</option>
+            <option value="Ken">Ken</option>
+            <option value="Sean">Sean</option>
+            <option value="珊珊">珊珊</option>
+            <option value="巧儒">巧儒</option>
+            <option value="周棋">周棋</option>
+            <option value="Josh">Josh</option>
+            <option value="淯心">淯心</option>
+          </select>
+        </form>
+
+        <p></p>
+
+        <fieldset>
+          <legend>請填寫選***的原因:</legend>
+
+          <div>
+            <input type="checkbox" id="scales" name="scales" />
+            <label for="scales">能夠帶領同事成長</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">有效並迅速地處理危機</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">良好溝通能力，團隊合作意識高</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">自我管理能能力強，並持續學習</label>
+          </div>
+        </fieldset>
+
+        <p></p>
+
+        <from>
+          其他想說的話 :<br />
+          <textarea name="Comment" cols="1" rows="1"> </textarea>
+        </from>
+      </div>
+
+      <div class="five">
+        <form>
+          <label for="selection2">第二位</label>
+          <select name="selection2" id="selection2" required>
+            <option></option>
+            <option value="Han">Han</option>
+            <option value="二哥">二哥</option>
+            <option value="阿瑞">阿瑞</option>
+            <option value="阿杰">阿杰</option>
+            <option value="湯包">湯包</option>
+            <option value="阿月">阿月</option>
+            <option value="Jiji">Jiji</option>
+            <option value="Jackson">Jackson</option>
+            <option value="Ian">Ian</option>
+            <option value="Lulu">Lulu</option>
+            <option value="Sin">Sin</option>
+            <option value="瑪姬">瑪姬</option>
+            <option value="阿信">阿信</option>
+            <option value="Yee">Yee</option>
+            <option value="叻叻">叻叻</option>
+            <option value="Rainy">Rainy</option>
+            <option value="Olly">Olly</option>
+            <option value="阿昇">阿昇</option>
+            <option value="Andy">Andy</option>
+            <option value="Abby">Abby</option>
+            <option value="Ken">Ken</option>
+            <option value="Sean">Sean</option>
+            <option value="珊珊">珊珊</option>
+            <option value="巧儒">巧儒</option>
+            <option value="周棋">周棋</option>
+            <option value="Josh">Josh</option>
+            <option value="淯心">淯心</option>
+          </select>
+        </form>
+        <p></p>
+        <fieldset>
+          <legend>請填寫選***的原因:</legend>
+
+          <div>
+            <input type="checkbox" id="scales" name="scales" />
+            <label for="scales"></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns">學習不足地方，不怕遇到困難</label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns"></label>
+          </div>
+
+          <div>
+            <input type="checkbox" id="horns" name="horns" />
+            <label for="horns"></label>
+          </div>
+        </fieldset>
+        <p></p>
+        <from>
+          其他想說的話:<br />
+          <textarea name="Comment" cols="1" rows="1"> </textarea>
+        </from>
+      </div>
     </div>
 
-    <div class="two">
-      <form>
-        <label for="selection1">第二位</label>
-        <select name="selection1" id="selection1" required>
-          <option></option>
-          <option value="Han">Han</option>
-          <option value="二哥">二哥</option>
-          <option value="阿瑞">阿瑞</option>
-          <option value="阿杰">阿杰</option>
-          <option value="湯包">湯包</option>
-          <option value="阿月">阿月</option>
-          <option value="Jiji">Jiji</option>
-          <option value="Jackson">Jackson</option>
-          <option value="Ian">Ian</option>
-          <option value="Lulu">Lulu</option>
-          <option value="Sin">Sin</option>
-          <option value="瑪姬">瑪姬</option>
-          <option value="阿信">阿信</option>
-          <option value="Yee">Yee</option>
-          <option value="叻叻">叻叻</option>
-          <option value="Rainy">Rainy</option>
-          <option value="Olly">Olly</option>
-          <option value="阿昇">阿昇</option>
-          <option value="Andy">Andy</option>
-          <option value="Abby">Abby</option>
-          <option value="Ken">Ken</option>
-          <option value="Sean">Sean</option>
-          <option value="珊珊">珊珊</option>
-          <option value="巧儒">巧儒</option>
-          <option value="周棋">周棋</option>
-          <option value="Josh">Josh</option>
-          <option value="淯心">淯心</option>
-        </select>
-      </form>
-
-      <p></p>
-
-      <fieldset>
-        <legend>請填寫選****的原因:</legend>
-
-        <div>
-          <input type="checkbox" id="scales" name="scales" />
-          <label for="scales">積極主動</label>
-        </div>
-
-        <div>
-          <input type="checkbox" id="horns" name="horns" />
-          <label for="horns">自律並有責任心</label>
-        </div>
-
-        <div>
-          <input type="checkbox" id="horns" name="horns" />
-          <label for="horns">團隊合作意識高，溝通時情緒穩定</label>
-        </div>
-
-        <div>
-          <input type="checkbox" id="horns" name="horns" />
-          <label for="horns">言而有信，值得託付</label>
-        </div>
-      </fieldset>
-
-      <p></p>
-
-      <from>
-        其他想說的話 :<br />
-        <textarea name="Comment" cols="1" rows="1"> </textarea>
-      </from>
-    </div>
     <div class="three">
       <form>
         <label for="selection1">第三位</label>
@@ -273,25 +406,24 @@
 
         <div>
           <input type="checkbox" id="scales" name="scales" />
-          <label for="scales">積極主動</label>
+          <label for="scales">能夠帶領同事成長</label>
         </div>
 
         <div>
           <input type="checkbox" id="horns" name="horns" />
-          <label for="horns">自律並有責任心</label>
+          <label for="horns">有效並迅速地處理危機</label>
         </div>
 
         <div>
           <input type="checkbox" id="horns" name="horns" />
-          <label for="horns">團隊合作意識高，溝通時情緒穩定</label>
+          <label for="horns">良好溝通能力，團隊合作意識高</label>
         </div>
 
         <div>
           <input type="checkbox" id="horns" name="horns" />
-          <label for="horns">言而有信，值得託付</label>
+          <label for="horns">自我管理能能力強，並持續學習</label>
         </div>
       </fieldset>
-
       <p></p>
 
       <from>

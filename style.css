@@ -8,7 +8,7 @@ body {
   background-color: #f3efef;
 }
 
-question {
+.question {
   display: flex;
 }
 
@@ -58,43 +58,44 @@ header ul li {
 .here {
   width: 620px;
   margin-top: 20px;
-  text-align: left;
   background: #e6dfdf;
   margin-left: 170px;
   padding: 20px 30px;
-  font-size: 16px;
 }
 
 .here2 {
   width: 620px;
   background: #e6dfdf;
   padding: 20px 30px;
-  font-size: 16px;
   margin-left: 50%;
   margin-top: 20px;
   /*flex:1*/
 }
 
-.container {
-  display: flex;
-}
-
-.here,
-.here2 {
-  width: 620px;
-  background: #e6dfdf;
-  padding: 20px 30px;
-  font-size: 16px;
-}
-
-.herecheck {
-  width: 24px;
-  height: 24px;
-}
-
 .one {
   width: 620px;
   background: #dedef0;
+  margin-top: 3px;
+  margin-left: 170px;
+  margin-right: auto;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin-bottom: 0;
+}
+
+.four{
+  width: 620px;
+  background: #f0d8e1;
+  margin-top: 3px;
+  margin-left: 170px;
+  margin-right: auto;
+  font-size: 20px;
+  padding: 10px 60px;
+  margin-bottom: 0;
+}
+.five{
+  width: 620px;
+  background: #f0cdda;
   margin-top: 3px;
   margin-left: 170px;
   margin-right: auto;
@@ -128,4 +129,9 @@ textarea {
   font-size: 20px;
   padding: 10px 60px;
   margin-bottom: 0;
+}
+
+
+.container {
+  display: flex;
 }
